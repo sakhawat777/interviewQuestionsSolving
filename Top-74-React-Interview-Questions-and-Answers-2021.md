@@ -325,7 +325,9 @@ Important features of Redux workflow are:
 Reset: Helps you to reset the State of the Store
 Revert: Allows you to roll back to the last committed State
 Sweep: All disable action that you might fire by mistake will be removed
-Commit: Helps you to make the current State the initial State. 74) State the difference between React JS and React Native
+Commit: Helps you to make the current State the initial State.
+
+74. State the difference between React JS and React Native
 
 React js is a front end open-source JavaScript library used for building UIs.
 
