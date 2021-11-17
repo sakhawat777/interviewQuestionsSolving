@@ -7,6 +7,9 @@ console.log(emtArray); // object
 const emtObject = {};
 console.log(typeof emtObject); // object
 
+const name = ' ';
+console.log(typeof name); // string
+
 const number = isNaN(Number.NaN);
 console.log(number); // true
 console.log(Number.NaN === NaN); // false
