@@ -1,5 +1,6 @@
 // What is SASS?
 // Ans: SASS is a most mature, stable and powerful professional grade css extension language in the world.
+// SCSS – CSS3 (SASS as CSS3 is called SCSS)
 
 // What is Sass?
 // Sass stands for Syntactically Awesome Stylesheet
