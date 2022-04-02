@@ -1,6 +1,21 @@
-// Undefine vs void in TypeScript?
-// undefine: When nothing return in js function that's called return undefine. Undefine is a value.
+// Undefine vs null vs void in JavaScript?
+
+// Undefined is a variable that exists but hasn't been initialized YET. Which means that later, I can come back to my variable and assign it a value that it did not have before. So if I declare a variable without a value, it's just considered non-initialized.
+// let currentJob;
+// undefined
+// null == undefined;
+// truthy
+// null === undefined;
+// falsey
+
+// Null is an assignment value, which means that you can assign the value null to any variable when you want that variable to be empty. It is intentionally left blank and will point to an empty value.
+// let hasCat = null;
+// nullish
+
 // Void: When nothing return in TypeScript that's mean return void. Void means return no value or the value is absent.
+// The difference is that some browsers allow you to overwrite the value of undefined. However, void anything always returns real undefined.
+
+// undefine: When nothing return in js function that's called return undefine. Undefine is a value.
 
 // What is the component lifecycle in React?
 
@@ -39,8 +54,7 @@
 // }
 
 // ReactDOM.render(<Header />, document.getElementById('root'));
- 
- 
+
 // getDerivedStateFromProps
 // The getDerivedStateFromProps() method is called right before rendering the element(s) in the DOM.
 
@@ -68,8 +82,7 @@
 //   }
 // }
 
-// ReactDOM.render(<Header favcol="yellow"/>, document.getElementById('root')); 
- 
+// ReactDOM.render(<Header favcol="yellow"/>, document.getElementById('root'));
 
 // render
 // The render() method is required, and is the method that actually outputs the HTML to the DOM.
@@ -113,7 +126,6 @@
 // }
 
 // ReactDOM.render(<Header />, document.getElementById('root'));
- 
 
 // Updating
 // The next phase in the lifecycle is when a component is updated.
@@ -161,9 +173,6 @@
 // }
 
 // ReactDOM.render(<Header favcol="yellow"/>, document.getElementById('root'));
- 
- 
- 
 
 // shouldComponentUpdate
 // In the shouldComponentUpdate() method you can return a Boolean value that specifies whether React should continue with the rendering or not.
@@ -197,9 +206,6 @@
 // }
 
 // ReactDOM.render(<Header />, document.getElementById('root'));
- 
- 
- 
 
 // Example:
 // Same example as above, but this time the shouldComponentUpdate() method returns true instead:
@@ -226,7 +232,6 @@
 // }
 
 // ReactDOM.render(<Header />, document.getElementById('root'));
- 
 
 // render
 // The render() method is of course called when a component gets updated, it has to re-render the HTML to the DOM, with the new changes.
@@ -270,8 +275,6 @@
 // This action triggers the update phase, and since this component has a getSnapshotBeforeUpdate() method, this method is executed, and writes a message to the empty DIV1 element.
 
 // Then the componentDidUpdate() method is executed and writes a message in the empty DIV2 element:
-
- 
 
 // Example:
 // Use the getSnapshotBeforeUpdate() method to find out what the state object looked like before the update:
@@ -393,4 +396,3 @@
 // }
 
 // ReactDOM.render(<Container />, document.getElementById('root'));
-
