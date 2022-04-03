@@ -8,7 +8,7 @@
 
 // CRUD 	               HTTP	     REST
 // Create	               POST	     /api/movie
-// Read	                   GET	     /api/movie/{id}
+// Read	                 GET	     /api/movie/{id}
 // Update/Replace	       PUT	     /api/movie
 // Update/Modify	       PATCH	 /api/movie
 // Delete	               DELETE	 /api/movie/{id}
