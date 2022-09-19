@@ -15,3 +15,4 @@ for (i; i < list.length; i++) {
 	}
 }
 console.log(result);
+// Output: 4
