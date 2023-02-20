@@ -1,0 +1,6 @@
+Quiz 1.2 - React এ one-way-data flow কি?
+React.js - one-way-data-flow মেইনটেইন করে। এই one-way-data-flow কি?
+
+Ans: action -> state -> view 
+or  view -> action -> state 
+or  state -> view -> action
