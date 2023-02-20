@@ -1,0 +1,4 @@
+Why is redux predictable?
+
+Ans: Redux makes the state predictable
+In Redux, the state is always predictable. If the same state and action are passed to a reducer, the same result is always produced because reducers are pure functions. The state is also immutable and is never changed.
