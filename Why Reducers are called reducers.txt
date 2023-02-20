@@ -1,0 +1,13 @@
+Why Reducers are called reducers?
+
+  Ans: Reducers come from array.reduce((PreviousResult, CurrentValue) => {return PreviousResult + CurrentValue}, 0).
+  Reducers reduce actions and return a single value (Updated State).
+
+
+ Reducers are called reducers because they reduce a collection of values into a single value. In computer programming, reducers are often used to aggregate or accumulate data by applying a function to each element of a collection and combining the results.
+
+The term "reducer" comes from functional programming, where it is a common pattern for processing collections of data. In functional programming, reducers are often used in conjunction with higher-order functions like map, filter, and fold, which enable more complex transformations to be performed on collections.
+
+The term "reducer" is also used in the context of parallel and distributed computing, where it refers to a function that combines the results of multiple computations into a single value. In this context, reducers are used to aggregate data across multiple processors or nodes in a cluster, enabling large-scale processing of data.
+
+Overall, the term "reducer" is used to describe functions or processes that reduce the complexity of a collection of data by aggregating or summarizing it into a smaller set of values.
