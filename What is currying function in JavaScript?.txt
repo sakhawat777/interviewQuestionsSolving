@@ -1,0 +1,37 @@
+What is currying function in JavaScript?
+
+Ans: It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence. 
+
+The translation of function happens something like this,
+
+function simpleFunction(param1, param2, param3, .....) => function 
+curriedFunction(param1)(param2)(param3)(....
+We simply wrap a function inside a function, which means we are going to return a function from another function to obtain this kind of translation. The parent function takes the first provided argument and returns the function that takes the next argument and this keeps on repeating till the number of arguments ends. Hopefully, the function that receives the last argument returns the expected result.  
+
+Note: An American mathematician named Haskell Curry developed this technique, that’s why it is called currying.
+
+Example 1: Let’s say we have the length, breadth, and height of a cuboid and we want to construct a function that can calculate the volume. The function is being called which consequently executes its code by provided arguments and returns the appropriate result, FInally console.log prints the returned value on the console.
+
+
+    function calculateVolume(length, breadth, height) {
+        return length * breadth * height;
+    }
+    console.log(calculateVolume(4, 5, 6));
+    
+    Output: 120
+    
+    Example 2: This example explains the currying technique with the help of closures. During the thread of execution, the calculateVolume() function will be invoked. Inside there is an anonymous function, that receives a parameter and returns some code. We are exposing our function to another function, so closure will be created. Closure always contains the function definition along with the lexical environment of the parent, both things remain connected as a bundle. Hence, it does not matter where we invoke them, the all inner functions will always hold access to the variable of their parent.
+As soon as we have got the returned result as a function the next argument is ready to be passed, this process will continue till the second last function. Finally, the innermost return keyword returns the expected result.
+
+
+    function calculateVolume(length) {
+        return function (breadth) {
+            return function (height) {
+                return length * breadth * height;
+            }
+        }
+    }
+    console.log(calculateVolume(4)(5)(6));
+    
+       Output: 120
+
