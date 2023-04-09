@@ -1,0 +1,53 @@
+1.	How to work Execution context?
+2.	What is the different between global execution vs functional execution?
+3.	What is the different between loading state vs execution state?
+4.	How to work This keyword?
+5.	Apply, call, bind 
+6.	how to work even loop?
+7.	How to work this keyword in arrow function vs normal function?
+8.	How increate js threads?
+9.	What is Denounce technic?
+10.	High order function?
+11.	HOC?
+12.	What is reduce?
+13.	Map?
+14.	Urinary function?
+15.	How to work Carry function?
+16.	What is pure function?
+17.	Prototype in js?
+18.	Prototype inheritance?
+19.	Asynchronous js?
+20.	synchronous?
+21.	Call back function?
+22.	Call back hell? 
+23.	What is promise?
+24.	Async await?
+25.	How to reduce call back hell?
+26.	First class function?
+27.	JavaScript Hoisting
+28.	Closer?
+29.	Scope?
+30.	Tempural dead zone?
+31.	Iifn?
+32.	Rest or sprite operator?
+33.	Anonumous function?
+34.	Array or object destructing?
+35.	Optional chaning?
+36.	Nalish operator?
+37.	What is class or object?
+38.	What is interface?
+39.	Props dealing?
+40.	Render props method?
+41.	State lifting up?
+42.	Usecall back?
+43.	useMeno?
+44.	Useref?
+45.	Lazy loading?
+46.	Flux state management?
+
+
+
+
+
+
+
