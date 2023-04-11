@@ -11,7 +11,7 @@
 11.	HOC?
 12.	What is reduce?
 13.	Map?
-14.	Urinary function?
+14.	Unary function?
 15.	How to work Carry function?
 16.	What is pure function?
 17.	Prototype in js?
