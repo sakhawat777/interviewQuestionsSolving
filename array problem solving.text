@@ -1,0 +1,7 @@
+// MaxNumber
+const arr = [1,10,12,100,90]
+const maxNumber = arr.sort((a,b) => b - a)
+console.log(maxNumber[0]) // Output: 100
+
+
+
