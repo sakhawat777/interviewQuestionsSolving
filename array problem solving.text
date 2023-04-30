@@ -14,3 +14,8 @@ const duplicateElements = toFindDuplicates(arry);
 console.log(duplicateElements); // Output: [1, 3]
 
 
+
+//  Comma Separator
+const arr = ["Ban","Eng","Sri"];
+const joined = arr.join();
+console.log(joined) // Output: Ban,Eng,Sri
