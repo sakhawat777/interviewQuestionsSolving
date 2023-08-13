@@ -1,6 +1,6 @@
 // js mein kuchh bhi likho wo mainly do prakaar mein se kisi ek prakaar ko belong karti hai
 
-// falsy values ye hai = false undefined null NaN document.all
+// falsy values ye hai = 0 false undefined null NaN document.all
 
 // truthy values
 
