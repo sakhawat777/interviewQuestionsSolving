@@ -1,0 +1,17 @@
+// objects par loop karne ke liye hota hai forin loop
+
+var obj {
+
+name: "harsh",
+
+age: 24,
+
+city: "bhopal"
+
+}
+
+for (var key in obj){ 
+console.log(key); // name, age, city
+console.log(key, obj[key]); // name harsh, age 24, city bhopal
+
+}
