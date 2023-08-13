@@ -15,5 +15,7 @@ function EC(){
   function test(){
    var = 14;
 }
+console.log(b) // variable b can't print because function scope is accessible by the nearest parent class.
 }
+EC();
 execution context: execution context contains a and test() but can't access b variable function EC because function scope is access by the nearest parent class.
