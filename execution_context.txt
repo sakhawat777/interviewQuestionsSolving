@@ -1,0 +1,9 @@
+1 // execution context matlab jab bhi hum function chalaayege fnc apna ek khudka ek imaginary container bana lega jismein uski teen cheeje hogi:
+
+2 // 1) variables
+
+3 // 2) functions inside that parent fnc
+
+4 // 3) lexical environment of that function
+
+5 // ye jp container hai imaginary ise hi hum execution context kahte hai
