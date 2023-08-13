@@ -1,3 +1,0 @@
-setTimeout(function(){
- console.log("Start 2 seconds later");
-}, 2000)

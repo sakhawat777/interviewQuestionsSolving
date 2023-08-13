@@ -1,0 +1,7 @@
+// callback fncs
+
+// jab bhi koi aisa code jo baad me chalta hai aap likhoge, kyuki wo code baad mein chalta hai js ko ye pata nahi hota ke wo complete hua ya nahi, aise code ke completion par js ko btaya jaata hai ke wo complete hogya aur aap use chala sakte ho, ye bataane ka kaam callback ka hai
+
+setTimeout(function(){
+ console.log("Start 2 seconds later");
+}, 2000)
