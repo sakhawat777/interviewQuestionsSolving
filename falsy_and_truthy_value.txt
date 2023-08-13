@@ -1,0 +1,37 @@
+// js mein kuchh bhi likho wo mainly do prakaar mein se kisi ek prakaar ko belong karti hai
+
+// falsy values ye hai = false undefined null NaN document.all
+
+// truthy values
+
+if(7){
+
+console.log("hey");
+
+} else{
+
+console.log("hello");
+
+}
+// output: hey becase 7 truthy value
+if(0){
+
+console.log("hey");
+
+} else{
+
+console.log("hello");
+
+}
+output: hello because 0 falsy value
+
+if(-1){
+
+console.log("hey");
+
+} else{
+
+console.log("hello");
+
+}
+// output: hey becase -1 truthy value
