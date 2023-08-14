@@ -1,0 +1,1 @@
+Even loop: Even loop synchronous function ke main stack a niye jai r asynchronous function ke side stack a niye jai r jokhon main stack er execution shes hoye main stack empty hoye jai tokhon side stack er asynchronous function ke main stack a niye ase ebong kaj finished kore dei.
